@@ -1,3 +1,9 @@
+
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+Game.new(Players::Computer.new("X"), Players::Computer.new("O")).play
+
+
+puts "\n\n Thanks for playing! \n\n"
